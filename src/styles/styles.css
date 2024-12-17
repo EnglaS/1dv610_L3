@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #444;
+}
+
+#sequenceDisplay {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+#timerDisplay {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#resultContainer {
+    margin-top: 20px;
+    text-align: right;
+    float: right;
+    width: 20%;
+    background-color: #dbdbdb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#chartContainer {
+    margin-top: 20px;
+    display: block;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    float: left;
+}

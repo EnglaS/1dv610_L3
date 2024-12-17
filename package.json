@@ -1,0 +1,24 @@
+{
+  "name": "1dv610_l2",
+  "version": "1.0.0",
+  "description": "* createElementNS används för att skapa SVG-element med namnutrymme.\r * Staplarna placeras med hjälp av x- och y-attributen baserat på deras index och värden.\r * Etiketter placeras under varje stapel med hjälp av <text>-element och placeras i mitten av varje stapel med `text-anchor: middle`.",
+  "main": "./src/app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "mocha --file src/tests/setup.js src/tests/**/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^5.4.8"
+  },
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "jsdom": "^25.0.1",
+    "mocha": "^11.0.1",
+    "node-localstorage": "^3.0.5"
+  }
+}
